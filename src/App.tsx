@@ -1,13 +1,8 @@
-import { Time } from "./class/time";
-
-const time = new Time();
-
-//time.cicleTime();
-
+import { PomodoroTimer } from "./components/pomodoro-timer";
 function App() {
   return (
     <>
-      <h1>Testando</h1>
+      <PomodoroTimer time={9} />
     </>
   );
 }
